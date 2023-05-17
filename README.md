@@ -1,0 +1,2 @@
+# KINSHIP_VERIFICATION
+Progetto KINSHIP VERIFICATION - prof. L. Verdoliva (2023)
