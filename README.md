@@ -49,5 +49,3 @@ The KinDeNet project builds upon the following works and datasets:
 - [Family in the Wild Dataset](https://github.com/visionjo/fiw)
 - [VGGFace](https://github.com/rcmalli/keras-vggface)
 
-We thank the original authors for their contributions.
-
