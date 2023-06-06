@@ -1,4 +1,4 @@
-# KinDeNet - Kinship Detection Network
+![Screenshot_2023-06-02_alle_14 05 12-removebg](https://github.com/Leonard2310/KinDeNet/assets/71086591/b236fbb2-8c90-45b6-bfcf-47878d81f53b)
 
 KinDeNet is a project developed for the Federico II University with the aim of creating a neural network that can extract the degree of kinship or non-correlation between two images.
 
