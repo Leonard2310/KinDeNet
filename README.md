@@ -34,9 +34,9 @@ We welcome contributions and improvements to the KinDeNet project. If you would 
 
 ## Authors
 
-- [Leonardo Catello](github.com/Leonard2310) 
-- [Lorenzo Manco](github.com/Rasbon99) 
-- [Francesco Di Serio](github.com/fdiserio)
+- [Leonardo Catello](https://github.com/Leonard2310) 
+- [Lorenzo Manco](https://github.com/Rasbon99) 
+- [Francesco Di Serio](https://github.com/fdiserio)
 
 ## License
 
