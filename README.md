@@ -12,15 +12,15 @@ The ResNet50 architecture of VGGFace is used as the feature extractor, as it has
 
 The siamese network is implemented for image recognition, creating two branches of the network that share the same weights. This allows the network to compare the features extracted from the two images and determine if they are related or unrelated.
 
-## Installation Requirements
+## Requirements
 
 - Python (version 3.6 or higher)
-- TensorFlow (version 2.0 or higher)
-- Keras (version 2.3 or higher)
-- NumPy
-- Pandas
-- Matplotlib
+- TensorFlow (version 2.12.0 or higher)
+- Keras-Applications (version 1.0.8 or higher)
+- Keras-Preprocessing (version 1.1.2 or higher)
+- Keras-VGGFace (version 0.6 or higher)
 
+The majority of experiments were performed on the Colaboratory cloud platform for deep learning, specifically using a T4 GPU with 12.7GB of memory.
 
 The script will evaluate the model using the test dataset and print the evaluation metrics.
 
