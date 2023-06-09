@@ -1,16 +1,20 @@
 ![LogoKDN-removebg](https://github.com/Leonard2310/KinDeNet/assets/71086591/c5179afd-2bd8-4ec7-8e93-67af16d8dd9d)
 
-KinDeNet is a project developed for the Federico II University with the aim of creating a neural network that can extract the degree of kinship or non-correlation between two images.
+KinDeNet (Kinship Detection Network) is a project developed for Federico II University with the aim of creating a neural network capable of extracting the degree of relatedness or non-relatedness between two images. The project utilizes the 'Family in the Wild' dataset and implements a siamese neural network using the triplet loss technique. This network leverages the ResNet50 architecture of VGGFace.
 
 ## Project Description
 
-The KinDeNet project is based on the "Family in the Wild" dataset and implements a neural network that utilizes the triplet loss technique, using the ResNet50 architecture of VGGFace as the base for feature extraction. Additionally, a siamese network is implemented for image recognition.
+The first step of the project involves training a siamese network with triplet loss to obtain optimized weights. These weights are then used to extract feature vectors from the images. These feature vectors capture the visual representations of individuals. 
 
-Triplet loss is a technique used in image recognition learning that is based on the idea of creating triplets of images, consisting of an anchor image, a positive image, and a negative image. The goal of the network is to learn to minimize the distance between the anchor and the positive image, while maximizing the distance between the anchor and the negative image. This way, the network learns to discriminate between similar (related) and unrelated images.
+In the second step, a two-input siamese network is utilized to further extract features using the weights obtained from the previous step. The extracted features are paired with the dataset labels and fed into a pipeline consisting of two classifiers—a binary classifier and a three-class classifier.
 
-The ResNet50 architecture of VGGFace is used as the feature extractor, as it has been proven to be very effective in face recognition. The extracted features are then used to calculate the triplet loss and train the network.
+The binary classifier determines whether two individuals are related or unrelated, while the three-class classifier categorizes the degree of kinship (parent-child, siblings or grandparent-grandchild). This two-step approach allows the KinDeNet model to accurately recognize the degree of kinship between a pair of people.
 
-The siamese network is implemented for image recognition, creating two branches of the network that share the same weights. This allows the network to compare the features extracted from the two images and determine if they are related or unrelated.
+In a different approach, we explored the use of Fine-tuning. Instead of separating the feature extraction and classification phases, we utilized the weights from the network trained with triplet loss to create a pipeline of two siamese networks, with the final output representing the degree of kinship between the pair of individuals.
+
+This methodology demonstrated significant improvements in evaluation metrics. However, it is important to note that this approach is more time-consuming both in terms of execution and testing.
+
+KinDeNet offers a robust solution for kinship detection, it opens up possibilities for various applications, such as family tree construction, and forensic investigations.
 
 ## Requirements
 
