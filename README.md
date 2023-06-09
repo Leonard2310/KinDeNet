@@ -5,7 +5,7 @@ KinDeNet (Kinship Detection Network) is a project developed for Federico II Univ
 ## Project Description
 The first step of the project involves training a siamese network with triplet loss to obtain optimized weights. These weights are then used to extract feature vectors from the images. These feature vectors capture the visual representations of individuals. 
 
-In the second step, a two-input siamese network is utilized to further extract features using the weights obtained from the previous step. The extracted features are paired with the dataset labels and fed into a pipeline consisting of two classifiers—a binary classifier and a three-class classifier.
+In the second step, a two-input siamese network is utilized to further extract features using the weights obtained from the previous step. The extracted features are paired with the dataset labels and fed into a pipeline consisting of two classifiers: a binary classifier and a three-class classifier.
 
 The binary classifier determines whether two individuals are related or unrelated, while the three-class classifier categorizes the degree of kinship (parent-child, siblings or grandparent-grandchild). This two-step approach allows the KinDeNet model to accurately recognize the degree of kinship between a pair of people.
 
@@ -21,6 +21,7 @@ KinDeNet offers a robust solution for kinship detection, it opens up possibiliti
 - Keras-Applications (version 1.0.8 or higher)
 - Keras-Preprocessing (version 1.1.2 or higher)
 - Keras-VGGFace (version 0.6 or higher)
+- Imbalanced-Learn 
 
 The majority of experiments were performed on the Colaboratory cloud platform for deep learning, specifically using a T4 GPU with 12.7GB of memory.
 
