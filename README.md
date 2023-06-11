@@ -44,5 +44,5 @@ This project is licensed under the [GNU General Public License v3.0]. Refer to t
 ## Acknowledgments
 The KinDeNet project builds upon the following works and datasets:
 
-- [Family in the Wild Dataset](https://github.com/visionjo/fiw)
+- [Family in the Wild Dataset](https://github.com/visionjo/fiw) (version 2019)
 - [VGGFace](https://github.com/rcmalli/keras-vggface)
