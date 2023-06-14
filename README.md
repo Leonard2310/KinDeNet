@@ -13,7 +13,7 @@ In a different approach, we explored the use of Fine-tuning. Instead of separati
 
 This methodology demonstrated significant improvements in evaluation metrics. However, it is important to note that this approach is more time-consuming both in terms of execution and testing.
 
-KinDeNet offers a robust solution for kinship detection, it opens up possibilities for various applications, such as family tree construction, and forensic investigations.
+KinDeNet offers a robust solution for kinship detection, it opens up possibilities for various applications, such as family tree construction and forensic investigations.
 
 ## Requirements
 - Python (version 3.6 or higher)
