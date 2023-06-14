@@ -27,6 +27,11 @@ The majority of experiments were performed on the Colaboratory cloud platform fo
 
 The script will evaluate the model using the test dataset and print the evaluation metrics.
 
+To install the required packages, run the following command:
+
+```shell
+pip install -r requirements.txt
+
 ## Results
 The model trained on KinDeNet has shown good performance in detecting the degree of kinship between images, achieving high accuracy. However, it is important to note that the results may vary depending on the dataset used and the training parameters set.
 
