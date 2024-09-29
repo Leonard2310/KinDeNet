@@ -16,12 +16,12 @@ This methodology demonstrated significant improvements in evaluation metrics. Ho
 KinDeNet offers a robust solution for kinship detection, it opens up possibilities for various applications, such as family tree construction and forensic investigations.
 
 ## Requirements
-- Python (version 3.6 or higher)
-- TensorFlow (version 2.12.0 or higher)
-- Keras-Applications (version 1.0.8 or higher)
-- Keras-Preprocessing (version 1.1.2 or higher)
-- Keras-VGGFace (version 0.6 or higher)
-- Imbalanced-Learn 
+- Python (version 3.6 or higher);
+- TensorFlow (version 2.12.0 or higher);
+- Keras-Applications (version 1.0.8 or higher);
+- Keras-Preprocessing (version 1.1.2 or higher);
+- Keras-VGGFace (version 0.6 or higher);
+- Imbalanced-Learn.
 
 The majority of experiments were performed on the Colaboratory cloud platform for deep learning, specifically using a T4 GPU with 12.7GB of memory.
 
